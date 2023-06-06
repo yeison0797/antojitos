@@ -1,0 +1,68 @@
+.contenedor-tarjeta{
+    width: 20rem;
+    height: 14em;
+    position: relative;
+    border-radius: 10px;
+    border: .2em solid rgb(127, 127, 127);
+}
+
+.contenedor-titulo{
+   margin-top: 2em; 
+   background-color: green;
+   width: 80%;
+   color: white;
+}
+
+label{
+    margin-left: 1em;
+}
+
+.descripcion{
+    margin-top: 3em;
+    margin-left: 2em;
+    display: flex;
+    flex-direction: column;
+}
+
+.unidades{
+    font-size: 1.3rem;
+}
+
+.tipo{
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.contenedor-seleccionables{
+    display: flex;
+    align-items: center;
+    gap:0.3rem;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+}
+
+button{
+    border-radius: 12px;
+    height: 30px;
+    width: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: rgb(171, 171, 171);
+}
+
+button:hover{
+    background-color: rgb(203, 203, 203);
+}
+
+i{
+    cursor: pointer;
+    margin-left: 1em;
+}
+
+i:hover{
+    opacity: 0.5;
+    color: green;
+}

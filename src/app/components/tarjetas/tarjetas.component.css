@@ -66,3 +66,9 @@ i:hover{
     opacity: 0.5;
     color: green;
 }
+
+.valor{
+    position: absolute;
+    left: 60%;
+    top:75%
+}

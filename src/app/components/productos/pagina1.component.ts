@@ -9,16 +9,5 @@ import { Router } from '@angular/router';
 export class Pagina1Component {
   constructor(private router: Router){}
 
-  navegar(){
-    this.router.navigate(['/pagina2'])
-  }
-  navegar1(){
-    this.router.navigate(['/pagina2'])
-  }
-  navegar2(){
-    this.router.navigate(['/pagina2'])
-  }
-  navegar3(){
-    this.router.navigate(['/pagina2'])
-  }
+
 }

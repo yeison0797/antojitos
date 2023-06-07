@@ -10,19 +10,72 @@
 }
 
 .cuerpo{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 select{
-    width: 40rem;
+    width: 30rem;
     height: 2.8em;
     border: .2em solid rgb(127, 127, 127);
 }
 
 input{
-    width: 20em;
+    width: 30rem;
     border-radius: 8px;
     height: 2.8em;
     border: .2em solid rgb(127, 127, 127);
+}
+
+.cliente{
+    display: flex;
+    flex-direction: column;
+}
+
+.cantidad{
+    display: flex;
+    flex-direction: column;
+}
+
+.carta-contenido{
+    width: 80%;
+    height: 40%;
+    margin-top: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: .2em solid rgb(202, 202, 202);
+    border-radius: 10px;
+    box-shadow: 4px 4px 10px rgba(0, 154, 46, 0.3);
+    gap: 4rem;
+    padding: 2rem 2rem 2rem 2rem;
+    padding-top: 2rem;
+    padding-left: 10rem;
+    position: relative;
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+}
+
+.precio-total{
+    position: absolute;
+    width: 20rem;
+    height: 8rem;
+    left: 65%;
+    top: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: .2em solid rgb(52, 52, 52);
+    border-radius: 5px;
+}
+
+.precio{
+    display: flex;
+    justify-content: center;
 }
